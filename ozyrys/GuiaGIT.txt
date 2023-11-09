@@ -1,0 +1,14 @@
+//Alteração teste para realizar PULL
+Guia de sobrevivência Gitgit init– Inicializa um novo repositório git na pasta localgit clone <
+url
+>– Copia o repositório remoto para uma pasta localgit status– Lista as modificações locais efetuadas git add <
+nome
+do
+arquivo
+>– Adiciona arquivo modificado na "lista para commit"git commit -m "mensagem que descreve o commit"– Realiza o commit local das modificações git branch <
+nome-branch
+>– Cria uma nova branch git pull origin <
+nome-branch
+>– Obtém (Puxa) as modificações do repositório remoto para o repositório local (sim, o "pull" é pra obter e o "push" é pra enviar rsrsrs)git push origin <
+nome-branch
+>– Envia as modificações commitadas localmente do repositório local para o repositório remoto
