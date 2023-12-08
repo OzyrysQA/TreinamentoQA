@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="link/bthstahm_bootstrap.min.css">
+	<title>BTH - Testes Funcionais Automatizados</title>
+	
+	<style type="text/css">
+	.ajustado{
+		width: 70%;
+	}
+	
+	.imagem {
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+		width: auto;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+		cursor: pointer;
+		max-width: 100%;
+		max-height: 250px;
+	}
+
+	.mesma-linha{
+	    display: inline;
+	}
+
+	.imagem-aumentada{
+        max-height: 700px;
+    }
+
+	img:hover {
+  		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+	
+	.clicavel{
+		cursor:pointer;
+	}
+</style>
+</head>
+<body>
+	<div class="d-flex flex-column  justify-content-center align-items-center">
+		<h2><b>Relatório de execução dos testes</b></h2>
+		
+	</div>
+
+        <script src="link/bthstahm_jquery-3.3.1.slim.min.js" ></script>
+        <script src="link/bthstahm_bootstrap.min.js" ></script>
+
+	<script>
+
+	    function toggleTamanho(element){
+
+            if(element.classList.contains('imagem-aumentada')){
+                element.classList.remove('imagem-aumentada');
+                return;
+            }
+
+            element.classList.add('imagem-aumentada');
+	    }
+
+	</script>
+</body>
+</html>
